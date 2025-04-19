@@ -1,0 +1,219 @@
+/* Brutalist Design CSS */
+@font-face {
+    font-family: 'Space Mono';
+    src: url('fonts/SpaceMono-Regular.ttf') format('truetype');
+}
+
+:root {
+    --main-bg: #f0f0f0;
+    --text-color: #000000;
+    --accent-color: #ff3366;
+    --secondary-bg: #00ffcc;
+    --box-shadow: 4px 4px 0 #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: var(--main-bg);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 2rem;
+    min-width: 320px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    background: var(--accent-color);
+    border: 4px solid var(--text-color);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-bottom: 1rem;
+    color: var(--main-bg);
+    text-shadow: 4px 4px 0 var(--text-color);
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid var(--text-color);
+}
+
+.contact {
+    display: grid;
+    gap: 0.5rem;
+    font-size: clamp(0.85rem, 2vw, 1.1rem);
+    color: var(--main-bg);
+}
+
+section {
+    background: white;
+    border: 4px solid var(--text-color);
+    padding: clamp(1rem, 3vw, 2rem);
+    box-shadow: var(--box-shadow);
+    width: 100%;
+}
+
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    list-style: none;
+}
+
+.skills li {
+    background: var(--secondary-bg);
+    border: 3px solid var(--text-color);
+    padding: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: var(--box-shadow);
+    font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+.education-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid var(--accent-color);
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+.education-item h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+}
+
+.education-item p {
+    font-size: clamp(0.85rem, 2vw, 1rem);
+}
+
+.status {
+    display: inline-block;
+    background: var(--accent-color);
+    color: var(--main-bg);
+    padding: 0.25rem 0.75rem;
+    margin-top: 0.5rem;
+    border: 2px solid var(--text-color);
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+}
+
+.languages ul {
+    list-style: none;
+}
+
+.languages li {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    border-left: 4px solid var(--secondary-bg);
+    font-size: clamp(0.85rem, 2vw, 1rem);
+}
+
+.language {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: clamp(1rem, 3vw, 2rem);
+    background: var(--secondary-bg);
+    border: 4px solid var(--text-color);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    font-family: 'Space Mono', monospace;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+    letter-spacing: 0.05em;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--text-color);
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+footer a:hover {
+    background: var(--accent-color);
+    color: var(--main-bg);
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0 var(--text-color);
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    header, 
+    .about,
+    footer {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    .container {
+        gap: 1rem;
+    }
+
+    section,
+    header,
+    footer {
+        border-width: 3px;
+    }
+
+    .skills li {
+        border-width: 2px;
+        box-shadow: 2px 2px 0 var(--text-color);
+    }
+
+    h1 {
+        text-shadow: 2px 2px 0 var(--text-color);
+    }
+
+    .box-shadow {
+        box-shadow: 2px 2px 0 var(--text-color);
+    }
+}
