@@ -81,21 +81,22 @@ section {
 }
 
 .skills ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 1rem;
     list-style: none;
+    padding-left: 0;
+    margin: 0 0 1rem 0;
+    font-size: clamp(0.95rem, 2vw, 1.05rem);
 }
 
 .skills li {
-    background: var(--secondary-bg);
-    border: 3px solid var(--text-color);
-    padding: 0.75rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    box-shadow: var(--box-shadow);
-    font-size: clamp(0.8rem, 2vw, 1rem);
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    text-transform: none;
+    font-weight: normal;
+    box-shadow: none;
+    margin-bottom: 0.5rem;
+    font-size: inherit;
 }
 
 .education-item {
@@ -148,12 +149,13 @@ section {
 }
 
 footer {
-    margin-top: 2rem;
+    margin: 2rem auto 0;
     padding: clamp(1rem, 3vw, 2rem);
     background: var(--secondary-bg);
     border: 4px solid var(--text-color);
     box-shadow: var(--box-shadow);
     text-align: center;
+    max-width: 1200px;
     width: 100%;
 }
 
@@ -205,8 +207,9 @@ footer a:hover {
     }
 
     .skills li {
-        border-width: 2px;
-        box-shadow: 2px 2px 0 var(--text-color);
+        border: none;
+        box-shadow: none;
+        font-size: clamp(0.9rem, 2vw, 1rem);
     }
 
     h1 {
