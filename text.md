@@ -1,109 +1,103 @@
-# ALYONA TAMMUR  
-Berlin, Germany  
+# Alyona Tammur
 
-**Product Engineer | EVM Consumer Apps | DevRel**
+Berlin, Germany
 
----
+**Product Engineer | DevRel | Decentralized Consumer Apps**
 
-## Professional Summary
+Product engineer building consumer-facing web and mobile products across decentralized ecosystems. Grand Prix Winner, Algorand Hackathon Berlin; co-founder of Sunsettings; selected for Base Batches 002. Background in React/TypeScript, C/C++, product UX, and privacy-first client-side systems.
 
-Product-focused engineer building consumer-facing applications on EVM networks.  
-Co-founder of Sunsettings, selected for Base Batches 002 and graduate of Incubase 002 Cohort.  
-Active DevRel and ecosystem contributor with multiple hackathon wins and accelerator participation.  
-Background in systems programming via 42 Berlin.
+## Projects
 
----
+### Sunsettings — Co-Founder & Product Engineer
 
-## Selected Projects
+2025–Present
 
-### Sunsettings — Co-Founder & Product Engineer (2025–Present)
+Consumer app for predicting, capturing, and collecting real-world sunset moments.
 
-Mobile-first onchain app transforming real-world sunsets into collectible onchain memories. Built on Base.
+- Built React product flows for predictions, submissions, collecting, and user onboarding.
+- Integrated Privy embedded wallets, ERC-4337 smart-wallet flows, and sponsored transactions via CDP Paymaster.
+- Implemented NFT minting plus IPFS/Pinata metadata storage.
+- Owned product direction, UX, visual identity, frontend implementation, and technical coordination.
+- Grand Prix Winner — Algorand Hackathon Berlin, 2025.
+- Selected for Base Batches 002; completed Incubase 002.
 
-- Architected and built React-based frontend  
-- Integrated Privy-based ERC-4337 smart wallets 
-- Implemented gas sponsorship using CDP Paymaster. 
-- Built NFT minting pipeline with IPFS/Pinata metadata flow  
-- Led UX, product direction, and ecosystem coordination  
-- Selected for Base Batches 002 → Graduated Incubase 002 Cohort  
+### DitherThat — Founder
 
----
+2025–Present
 
-### DitherThat — Founder (2025–Present)
+Privacy-first browser image-processing tool.
 
-Privacy-first WASM-powered browser image processing tool.
+- Built a fully client-side app: images are processed locally and never uploaded to a server.
+- Implemented several dithering algorithms, including Floyd–Steinberg, Atkinson, Bayer ordered dithering, and additional error-diffusion methods.
+- Built the product UI, controls, export flow, visual identity, and WASM-powered image-processing pipeline.
 
-- Implemented advanced dithering algorithms (Floyd–Steinberg, Atkinson, Bayer)  
-- Built high-performance client-side image processing system  
-- Developed full brand identity
+## Work Experience
 
----
+### DevRel Educator — Dev3Pack
 
-## DevRel & Ecosystem Roles
+2025–Present
 
-### DevRel — Dev3Pack (2025–Present)
+Technical education and builder support across Web3 ecosystems.
 
-- Supporting builders across Web3 ecosystems  
-- Technical onboarding and community engagement  
+### Base DevRel Advocate
 
-### DevRel Ambassador — Base (Coinbase L2) (2025–Present)
+2025–Present
 
-- Promoting EVM adoption and developer tooling  
-- Supporting builders integrating Base infrastructure  
+Supporting Base builders with developer education, ecosystem advocacy, and onboarding.
 
-### Ambassador — Midnight (2025–Present)
+### Midnight Ambassador
 
-- Community growth and ecosystem advocacy  
+2025–Present
 
----
+Community growth and ecosystem advocacy.
 
-## Hackathons & Awards
+### Video Engineer / Producer — EdTech
 
-**Algorand Hackathon — Berlin (Sept 2025)**  
-Grand Prix Winner  
+8+ years
 
-**Starknet x 42 Hackathon (2024)**  
-Best Mini App  
+End-to-end production for educational video and live formats: filming, technical setup, editing, publishing, and stakeholder coordination.
 
-**AI Agents Summit Hackathon (Summer 2025)**  
-4th Place  
+## Hackathons & Recognition
 
-**ETHGlobal (Multiple Events)**  
-Participant — Received partner prizes across multiple tracks  
+- **Grand Prix Winner — Algorand Hackathon, Berlin, 2025.**
+- **Best Mini App — Starknet × 42 Hackathon, 2024.**
+- **4th Place — AI Agents Summit Hackathon, 2025.**
+- **Partner Prize Recipient — ETHGlobal Prague.**
+- **Selected Team — Base Batches 002.**
+- **Graduate — Incubase 002.**
 
----
+## Skills
 
-## Technical Skills
-
-### Blockchain (EVM)
-- ERC-4337 Account Abstraction  
-- Smart Wallets  
-- Coinbase CDP Paymaster  
-- NFT Minting Pipelines  
-- IPFS / Pinata  
-
-### Frontend
-- React  
-- Next.js  
-- TypeScript  
-- Tailwind  
-
-### Systems
-- C  
-- WASM  
-
-### Product
-- UX Strategy  
-- Feature Scoping  
-- Accelerator Participation  
-- Technical Pitching  
-
----
+- Frontend: TypeScript, JavaScript, React, Next.js, React Native, Tailwind CSS
+- Systems: C, C++, Unix, algorithms, graphics programming, WebAssembly
+- Decentralized Apps: wallet integration, account abstraction, transaction sponsorship, NFT minting, IPFS, Pinata
+- Product: UX, feature scoping, prototyping, visual identity, technical pitching
 
 ## Education
 
-**42 Berlin — Software Engineering (2024–Present)**  
-Project-based systems curriculum: C, C++, graphics, networking.
+### 42 Berlin — Software Engineering
 
-**GuideDao**
-Web Development Course (HTML, CSS, JavaScript, React)
+2024–Present
+
+Project-based curriculum in C/C++, Unix processes, graphics, algorithms, memory management, and object-oriented programming.
+
+Selected projects:
+
+- minishell — Unix shell in C: parsing, environment handling, pipes, redirections, processes, and signals
+- FdF — pseudo-isometric wireframe renderer in C with MLX42
+- pipex — pipes, process execution, redirection, and execve
+- push_swap — sorting algorithms under strict operation constraints
+- ft_printf, get_next_line, libft — C, memory management, parsing, and file descriptors
+- C++ Modules — inheritance, polymorphism, deep copies, and ownership
+
+### GuideDao — Web Development Course
+
+2022
+
+HTML, CSS, JavaScript, React
+
+### Saint Petersburg University of Humanities and Social Sciences
+
+Bachelor’s Degree in Linguistics
+
+Theory and Practice of Intercultural Communication — English and Spanish
